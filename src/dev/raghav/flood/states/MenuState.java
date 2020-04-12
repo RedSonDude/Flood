@@ -6,7 +6,6 @@ import java.awt.image.BufferedImage;
 import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
-import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.security.NoSuchAlgorithmException;
@@ -112,7 +111,7 @@ public class MenuState extends State {
 		FileReader fReader = null;
 		BufferedReader bReader = null;
 		try {
-			fReader = new FileReader("res/highscore/mode" + (mode + 1) + ".dat");
+			fReader = new FileReader(System.getProperty("user.home") + "/flood/mode" + (MenuState.mode + 1) + ".dat");
 			bReader = new BufferedReader(fReader);
 			int score = Integer.parseInt(bReader.readLine());
 			bReader.close();
@@ -122,7 +121,7 @@ public class MenuState extends State {
 			dos.writeInt(score);
 			byte[] data = baos.toByteArray();
 			
-			fReader = new FileReader(System.getProperty("user.home") + File.separator + "flood" + File.separator + "mode" + (MenuState.mode + 1) + ".dat");
+			fReader = new FileReader(System.getProperty("user.home") + "/flood/.data" + (MenuState.mode + 1) + ".dat");
 			bReader = new BufferedReader(fReader);
 			if (getTaco(data).equals(bReader.readLine())) {
 				bReader.close();

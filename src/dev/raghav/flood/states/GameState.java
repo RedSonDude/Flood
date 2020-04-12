@@ -67,14 +67,15 @@ public class GameState extends State {
 		if (Player.endScreen) {
 			if (Path.score > MenuState.highscore) {
 				MenuState.highscore = Path.score;
-				File scoreFile = new File("res/highscore/mode" + (MenuState.mode + 1) + ".dat");
-				File onion = new File(System.getProperty("user.home") + File.separator + "flood");
-				File tortilla = new File(System.getProperty("user.home") + File.separator + "flood" + File.separator + "mode" + (MenuState.mode + 1) + ".dat");
-				if (!onion.exists()) {
-					onion.mkdir();
+				File dir = new File(System.getProperty("user.home") + "/flood");
+				File scoreFile = new File(System.getProperty("user.home") + "/flood/mode" + (MenuState.mode + 1) + ".dat");
+				File tortilla = new File(System.getProperty("user.home") + "/flood/.data" + (MenuState.mode + 1) + ".dat");
+				if (!dir.exists()) {
+					dir.mkdir();
 				}
 				if (!scoreFile.exists()) {
 					try {
+						System.out.println(scoreFile.getAbsolutePath());
 						scoreFile.createNewFile();
 						tortilla.createNewFile();
 					} catch (IOException e) {
