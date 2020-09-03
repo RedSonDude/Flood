@@ -1,4 +1,4 @@
-package dev.raghav.flood.entities;
+ package dev.raghav.flood.entities;
 
 import java.awt.BasicStroke;
 import java.awt.Color;

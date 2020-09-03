@@ -75,7 +75,6 @@ public class GameState extends State {
 				}
 				if (!scoreFile.exists()) {
 					try {
-						System.out.println(scoreFile.getAbsolutePath());
 						scoreFile.createNewFile();
 						tortilla.createNewFile();
 					} catch (IOException e) {

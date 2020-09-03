@@ -108,8 +108,8 @@ public class MenuState extends State {
 	}
 	
 	public int getHighscore() {
-		FileReader fReader = null;
-		BufferedReader bReader = null;
+		FileReader fReader;
+		BufferedReader bReader;
 		try {
 			fReader = new FileReader(System.getProperty("user.home") + "/flood/mode" + (MenuState.mode + 1) + ".dat");
 			bReader = new BufferedReader(fReader);
