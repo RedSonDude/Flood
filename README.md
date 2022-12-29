@@ -14,8 +14,3 @@ My process
 I was able to develop a basic framework for the game by following this tutorial by CodeNMore: https://www.youtube.com/watch?v=dEKs-3GhVKQ&list=PLah6faXAgguMnTBs3JnEJY0shAc18XYQZ
 
 I then added all the necessary elements into my game independently.
-
-Starting out
-------------
-
-
