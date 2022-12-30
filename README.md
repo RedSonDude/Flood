@@ -1,6 +1,6 @@
 About
 -----
-Flood is a top-down racing style game created using Java. Instructions can be found in game. 
+Flood is a top-down racing style game created using Java. There are three levels: the walls in the first level slow the player down slightly; the walls in the second level slow the player down significantly; the walls in the third level bounce the player backwards into certain death.
 
 I was able to develop a basic framework for the game by following this tutorial by CodeNMore: https://www.youtube.com/watch?v=dEKs-3GhVKQ&list=PLah6faXAgguMnTBs3JnEJY0shAc18XYQZ
 
