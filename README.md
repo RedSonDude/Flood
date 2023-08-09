@@ -26,4 +26,4 @@ Finally, high scores are saved locally and encrypted using SHA-256 in order to p
 Quick Demo
 ----------
 
-https://user-images.githubusercontent.com/52140136/209908392-7621a4b6-0f77-4f5b-981d-7ac8f4736838.mov
+https://github.com/rsrinivasan1/Flood/assets/52140136/2659f51d-2fe7-4f86-9ef9-827320d20acc
