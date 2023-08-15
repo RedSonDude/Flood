@@ -3,6 +3,11 @@ Quick Demo
 
 https://github.com/rsrinivasan1/Flood/assets/52140136/2659f51d-2fe7-4f86-9ef9-827320d20acc
 
+Boundary box visualization
+--------------------------------------
+
+https://github.com/rsrinivasan1/Flood/assets/52140136/b3a8bd88-cbc7-4138-9dde-8c1b709898c3
+
 About
 -----
 Flood is a top-down racing style game created using Java. There are three levels: the walls in the first level slow the player down slightly; the walls in the second level slow the player down significantly; the walls in the third level bounce the player backwards into certain death.
