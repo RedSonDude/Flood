@@ -1,9 +1,4 @@
-Quick Demo
-----------
-
-https://github.com/rsrinivasan1/Flood/assets/52140136/2659f51d-2fe7-4f86-9ef9-827320d20acc
-
-Boundary box visualization
+Quick boundary box demo
 --------------------------------------
 
 https://github.com/rsrinivasan1/Flood/assets/52140136/b3a8bd88-cbc7-4138-9dde-8c1b709898c3
@@ -32,3 +27,8 @@ All graphics were created by using the Java Abstract Window Toolkit, in particul
 Collision detection and handling is implemented by estimating each Bezier curve as a sequence of small, connected line segments. This was done because it was easier to check for collisions between a bounding box of lines and an ```Area``` object, than it would have been to do the same for a Bezier curve bounding box.
 
 Finally, high scores are saved locally and encrypted using SHA-256 in order to prevent external manipulation of score data.
+
+Full Demo
+----------
+
+https://github.com/rsrinivasan1/Flood/assets/52140136/2659f51d-2fe7-4f86-9ef9-827320d20acc
