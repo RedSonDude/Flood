@@ -1,3 +1,8 @@
+Quick Demo
+----------
+
+https://github.com/rsrinivasan1/Flood/assets/52140136/2659f51d-2fe7-4f86-9ef9-827320d20acc
+
 About
 -----
 Flood is a top-down racing style game created using Java. There are three levels: the walls in the first level slow the player down slightly; the walls in the second level slow the player down significantly; the walls in the third level bounce the player backwards into certain death.
@@ -22,8 +27,3 @@ All graphics were created by using the Java Abstract Window Toolkit, in particul
 Collision detection and handling is implemented by estimating each Bezier curve as a sequence of small, connected line segments. This was done because it was easier to check for collisions between a bounding box of lines and an ```Area``` object, than it would have been to do the same for a Bezier curve bounding box.
 
 Finally, high scores are saved locally and encrypted using SHA-256 in order to prevent external manipulation of score data.
-
-Quick Demo
-----------
-
-https://github.com/rsrinivasan1/Flood/assets/52140136/2659f51d-2fe7-4f86-9ef9-827320d20acc
